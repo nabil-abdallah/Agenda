@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulaire</title>
+      <link rel="stylesheet" href="agenda.css">
+   </head>
+   <body class="body-form">
+      <header class="header-form">
+         <ul>
+            <li><a href="agenda.html">Agenda</a></li>
+         </ul>
+      </header>
+      <main>
+         <article>
+            <section>
+               <h2>Ajouter un évènement</h2>
+               <form class="formulaire" action="agenda.html" method="">
+                  <div>
+                     <label for="Ajouter un titre">Ajouter un titre</label>
+                     <input type="text" id="Ajouter un titre" name="Ajouter un titre">
+                     <label for="date">Date</label>
+                     <input type="date" id="Date" name="Date">
+                     <label for="heure">Heure</label>
+                     <input type="time" id="Heure" name="Heure">
+                     </br>
+                     <label for="Catégorie">Catégorie</label>
+                     <select id="Categorie" name="Categorie">
+                        <optgroup label="Catégorie">
+                           <option value="Très-important">Très important</option>
+                           <option value="Important">Important</option>
+                           <option value="Loisir">Loisir</option>
+                        </optgroup>
+                     </select>
+                     </br>
+                     <textarea name="Description" placeholder="Description de l'évènement ?"></textarea>
+                     </br>
+                     <label for="envoyer"></label>
+                     <input type="submit" id="envoyer" value="envoyer"></br>
+                  </div>
+               </form>
+            </section>
+         </article>
+      </main>
+      <footer>
+         <ul>
+            <li>Agenda forever</li>
+         </ul>
+      </footer>
+   </body>
+</html>
